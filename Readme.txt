@@ -1,12 +1,5 @@
 Title: Heart Disease Prediction
 
-Team: Team Samartians
-
-Group Members:
-Jyoti Swaroop Naidu Yelaka- jyelaka@unnc.edu
-Udheep Reddy Vootukuri
-Nitish Reddy Banda
-
 Project Description:
 Heart Disease Prediction is a project which is developed using the agile software system development techniques. 
 This application mainly predicts heart disease probability in an individual. 
