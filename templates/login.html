@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Heart Disease Prediction </title>
+<link rel = "icon" href = "static/images/au.png" type = "image/x-icon">
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<script src="static/js/jquery.min.js"></script>
+<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Open Heart Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+ <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+        function login(){
+        var uname = document.getElementById("uname").value;
+        var pwd = document.getElementById("pwd").value;
+
+	if((uname == "user" && pwd == "user") || (uname == "Swaroop" && pwd == "Swaroop") )
+	{
+	  window.location = "{{url_for('upload')}}";
+	  return false;
+	}
+	else
+	{
+	alert("Invalid Credentials!")
+	}
+        }
+    </script>
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<style>
+.container input[type=text],input[type=password] {
+height: 35px;
+}
+</style>
+</head>
+<body> 
+
+		<div class="container">
+			<h6>HOME / <span>ADMIN LOGIN</span></h6>
+		</div>
+	</div>
+		<div class="header">
+			<div class="container">			
+				<div class="logo">
+					<a href="{{url_for('index')}}"><img src="static/images/logo.png" alt=" " width="150px" height="150px"/></a>
+				</div>
+				<div class="top-nav">
+					<span class="menu"> </span>
+					<ul>
+						<li  ><a href="{{url_for('index')}}" class="scroll">HOME </a></li>						
+						<li class="active"><a href="{{url_for('login')}}" class="scroll">ADMIN LOGIN  </a></li>
+					</ul>
+				<script>
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle(500, function(){
+						});
+					});
+			</script>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+
+
+<div class="container">
+                <br><br><br><br><br><br><br><br>			
+    <div class="row" style="margin-left: 200px;">
+		<div class="span12">
+			<div class="form-horizontal">
+			  <fieldset>
+			    <div id="legend">
+			     <h1 class="" style="margin-left:275px">Login</h1>
+			    </div>
+				<br>
+				<br>
+			    <div class="control-group">
+			      <label class="control-label"  for="username">Username</label>
+			      <div class="controls">
+			        <input type="text" id="uname" name="uname" placeholder="" class="input-xlarge">
+			      </div>
+			    </div>
+			    <div class="control-group">
+			      <label class="control-label" for="password">Password</label>
+			      <div class="controls">
+			        <input type="password" id="pwd" name="pwd" placeholder="" class="input-xlarge">
+			      </div>
+			    </div>
+			    <div class="control-group">
+			      <div class="controls">
+			        <input type="button" class="btn btn-success" value="Login" style="margin-left: 60px" onclick="login()">
+			      </div>
+			    </div>
+			  </fieldset>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>

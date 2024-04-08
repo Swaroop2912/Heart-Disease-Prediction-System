@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Heart Disease Prediction</title>
+<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel = "icon" href = "static/images/au.png" type = "image/x-icon">
+<script src="static/js/jquery.min.js"></script>
+<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<style>
+    body {
+      background-image: url('static/images/banner2.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    .abc{
+
+height: 50px;
+
+width: 150px;
+
+}
+    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Open Heart Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body> 
+    <img src="" alt="">
+		<div class="container">
+			<h6><span>LOGIN NAVIGATOR</span>></h6>
+		</div>
+
+		<div class="header">
+			<div class="container">			
+				<div class="logo">
+					<a href="{{url_for('index')}}"><img src="static/images/logo.png" alt=" " width="150px" height="150px"/></a>
+				</div>
+				<div class="top-nav">
+					<span class="menu"> </span>
+					<ul>
+						<li><a href="{{url_for('index')}}" class="scroll">HOME </a></li>					
+					</ul>
+				<script>
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle(500, function(){
+						});
+					});
+			</script>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+        <br><br><br><br><br><br><br><br><br>
+		<div class="content">
+			<div class="container">
+				<div class="donate">
+					<div class="donate-grid">
+				<a href="{{url_for('login')}}" class="btn  btn-1c"><h2>ADMIN LOGIN</h2> </a>
+						<br>
+						<br>
+						<br>
+						
+				<a href="{{url_for('login1')}}" class="btn  btn-1c"><h2>CLIENT LOGIN</h2></a>
+<br>
+</div></div></div></div>
+</body>
+</html>

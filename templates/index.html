@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Heart Disease Prediction</title>
+<link rel = "icon" href = "static/images/au.png" type = "image/x-icon">
+<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<script src="static/js/jquery.min.js"></script>
+<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Open Heart Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+</head>
+<body> 
+
+	<script src="static/js/responsiveslides.min.js"></script>
+	<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+	<div class="slider">
+	    <div class="callbacks_container">
+	      <ul class="rslides" id="slider">
+	        <li>
+	          <img src="static/images/banner.jpg" alt="">
+	          <div class="banner">
+				<h2>Heart Disease Prediction</h2>
+				<p>Prediction of Heart Disease Using Machine Learning Algorithms.</p>
+			</div>
+	        </li>
+	        <li>
+	          <img src="static/images/banner2.jpg" alt="">
+	        	 <div class="banner">
+				<h2>Heart Disease Prediction</h2>
+				<p>Prediction of Heart Disease Using Machine Learning Algorithms.</p>
+			</div>
+	        </li>
+	        <li>
+	          <img src="static/images/banner3.jpg" alt="">
+	         <div class="banner">
+				<h2>Heart Disease Prediction</h2>
+				<p>Prediction of Heart Disease Using Machine Learning Algorithms.</p>
+			</div>
+	        </li>
+	      </ul>
+	  </div>
+	  </div>
+		<div class="header">
+			<div class="container">			
+				<div class="logo">
+					<a href="{{url_for('index')}}"><img src="static/images/logo.png" alt=" " width="150px" height="150px"/></a>
+				</div>
+				<div class="top-nav">
+					<span class="menu"> </span>
+					<ul>
+						<li class="active" ><a href="{{url_for('index')}}" class="scroll">HOME </a></li>
+						<li><a href="{{url_for('page')}}" class="scroll">LOGIN </a></li>
+						<li><a href="{{url_for('single')}}" class="scroll">ABOUT US</a></li>
+					</ul>
+				<script>
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle(500, function(){
+						});
+					});
+			</script>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	<div class="content">
+		<div class="container">
+			<div class="donate">
+				<div class="donate-grid">
+					<h1><strong>ABSTRACT</strong></h1><p align="justify"><font face="verdana">The heart is an exquisite machine. The heart is important because it pumps blood around your body, delivering oxygen and nutrients to your cells. According to the World Health Organization every 17.9 million people surrender their lives to Cardiovascular Diseases and the numbers are going up even now, which could be a great threat. This had been a centipede for years. Lot of people don’t even know that they have heart disease.  Heart Disease could be unpredictable and can cause unnatural death in quick succession. It is one of the biggest causes of morbidity and mortality among the population of the world. This had been a major area of study for years. Prediction and prevention of heart diseases could be a great boon to society. Ascertaining cardiovascular disease is considered as one of the vital subjects in the section of Data Analytics. Many researches have been conducted in an attempt to pinpoint the most influential factors of heart disease as well as accurately predict the overall risk. As the proverb “Prevention is better than cure” says, predicting a heart disease in its early stages and preventing it could be great.  The early diagnosis of heart disease plays a vital role in making decisions on lifestyle changes in high-risk patients and in turn reduces the complications.
+						Machine learning usually focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy. It could be a great advantage in the medical field. This project mainly concentrates on the prediction of future Heart Disease by analyzing data of patients which informs whether they have heart disease or not, using machine-learning algorithms.  Considering the key factors of a person’s heart metabolism heart disease can be predicted which might be a life savior. Collecting data from different cases and bringing everything together to analyze all the data and classifying it into different categories by severity which could be helpful in predicting a heart disease is all about the project.
+				<br/>
+				<br/>
+				<center>	
+				<a href="{{url_for('login')}}" class="btn  btn-1c">ADMIN LOGIN</a>
+				<a href="{{url_for('login1')}}" class="btn  btn-1c">CLIENT LOGIN</a>
+			</center>
+			</div>	
+		</div>
+			
+	</div>
+
+</body>
+</html>
