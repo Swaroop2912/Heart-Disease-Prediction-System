@@ -13,13 +13,19 @@ Development Approach: Agile Model Development.
 
 Hardware Requirements:
 Processor : Any processor above i3
+
 Ram : Minimum size of 4GB
+
 MODEM : With a minimum speed of 33.6kbps or Wi-Fi.
+
 
 Software Requirements:
 Operating System : Windows XP and above.
+
 Web Browser : Google Chrome, Brave, Microsoft Edge
+
 GUI : HTML, CSS, Bootstrap, JavaScript, JQuery
+
 Back end : Python, Flask
 
 File Contents:
